@@ -52,7 +52,7 @@ public/            # Fichiers statiques (favicon, images, etc.)
 
 ## 🌍 Déploiement
 
-Le projet peut être déployé facilement sur [Lovable](https://lovable.dev/projects/82149af2-9afe-4127-8e26-f759ef0a281c) ou sur toute plateforme compatible avec Vite/React.
+Le projet peut être déployé sur toute plateforme compatible avec Vite/React (par exemple : Vercel, Netlify, etc.).
 
 ## 👤 Auteur
 
