@@ -1,73 +1,67 @@
-# Welcome to your Lovable project
+# Cyna – Marketplace SaaS de référence
 
-## Project info
+Bienvenue sur **Cyna**, la marketplace qui permet de découvrir, comparer et tester les meilleurs outils SaaS du marché.  
+> **Ce projet a été réalisé dans le cadre de ma formation à INGÉTIS et servira de support à ma soutenance de mémoire.**
 
-**URL**: https://lovable.dev/projects/82149af2-9afe-4127-8e26-f759ef0a281c
+Ce projet a été conçu pour faciliter la recherche de solutions digitales pour les entrepreneurs, startups et PME.
 
-## How can I edit this code?
+## 🚀 Fonctionnalités principales
 
-There are several ways of editing your application.
+- Catalogue de plus de 500 outils SaaS testés et notés par la communauté
+- Fiches produits détaillées (prix, avis, fonctionnalités, etc.)
+- Recherche et filtres avancés par catégorie, prix, popularité, etc.
+- Inscription et connexion sécurisées
+- Interface moderne et responsive
 
-**Use Lovable**
+## 🛠️ Technologies utilisées
 
-Simply visit the [Lovable Project](https://lovable.dev/projects/82149af2-9afe-4127-8e26-f759ef0a281c) and start prompting.
+- [Vite](https://vitejs.dev/) – Build ultra-rapide
+- [React](https://react.dev/) + [TypeScript](https://www.typescriptlang.org/) – Frontend robuste et typé
+- [Tailwind CSS](https://tailwindcss.com/) – Design moderne et personnalisable
+- [shadcn/ui](https://ui.shadcn.com/) – Composants UI réutilisables
 
-Changes made via Lovable will be committed automatically to this repo.
+## 📁 Structure du projet
 
-**Use your preferred IDE**
-
-If you want to work locally using your own IDE, you can clone this repo and push changes. Pushed changes will also be reflected in Lovable.
-
-The only requirement is having Node.js & npm installed - [install with nvm](https://github.com/nvm-sh/nvm#installing-and-updating)
-
-Follow these steps:
-
-```sh
-# Step 1: Clone the repository using the project's Git URL.
-git clone <YOUR_GIT_URL>
-
-# Step 2: Navigate to the project directory.
-cd <YOUR_PROJECT_NAME>
-
-# Step 3: Install the necessary dependencies.
-npm i
-
-# Step 4: Start the development server with auto-reloading and an instant preview.
-npm run dev
+```
+src/
+  components/      # Composants UI réutilisables
+  hooks/           # Hooks personnalisés
+  lib/             # Fonctions utilitaires
+  pages/           # Pages principales (Accueil, Catalogue, Login, Register, etc.)
+  App.tsx          # Point d'entrée principal
+  main.tsx         # Bootstrap de l'app React
+public/            # Fichiers statiques (favicon, images, etc.)
 ```
 
-**Edit a file directly in GitHub**
+## ⚡ Démarrage rapide
 
-- Navigate to the desired file(s).
-- Click the "Edit" button (pencil icon) at the top right of the file view.
-- Make your changes and commit the changes.
+1. Clone le dépôt :
+   ```sh
+   git clone <URL_DU_DEPOT>
+   cd cyna-front-end
+   ```
+2. Installe les dépendances :
+   ```sh
+   npm install
+   ```
+3. Lance le serveur de développement :
+   ```sh
+   npm run dev
+   ```
+4. Accède à l’application sur [http://localhost:5173](http://localhost:5173)
 
-**Use GitHub Codespaces**
+## 🌍 Déploiement
 
-- Navigate to the main page of your repository.
-- Click on the "Code" button (green button) near the top right.
-- Select the "Codespaces" tab.
-- Click on "New codespace" to launch a new Codespace environment.
-- Edit files directly within the Codespace and commit and push your changes once you're done.
+Le projet peut être déployé facilement sur [Lovable](https://lovable.dev/projects/82149af2-9afe-4127-8e26-f759ef0a281c) ou sur toute plateforme compatible avec Vite/React.
 
-## What technologies are used for this project?
+## 👤 Auteur
 
-This project is built with:
+Projet réalisé par DIAGNE Mouhamed dans le cadre du mémoire INGÉTIS (projet scolaire pour la soutenance).
 
-- Vite
-- TypeScript
-- React
-- shadcn-ui
-- Tailwind CSS
+## 📄 Licence
 
-## How can I deploy this project?
+Ce projet est sous licence MIT.
 
-Simply open [Lovable](https://lovable.dev/projects/82149af2-9afe-4127-8e26-f759ef0a281c) and click on Share -> Publish.
+---
 
-## Can I connect a custom domain to my Lovable project?
-
-Yes, you can!
-
-To connect a domain, navigate to Project > Settings > Domains and click Connect Domain.
-
-Read more here: [Setting up a custom domain](https://docs.lovable.dev/tips-tricks/custom-domain#step-by-step-guide)
+> Pour toute question ou suggestion, n’hésite pas à ouvrir une issue ou à me contacter.
