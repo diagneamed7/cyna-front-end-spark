@@ -28,7 +28,12 @@ module.exports = {
           
           'creme': '#F5F5DC', // Crème
           'sombre': '#2C3E50', // Bleu sombre
-        }
+        },
+        
+        border: 'hsl(var(--border))',
+        background: 'hsl(var(--background))',
+        foreground: 'hsl(var(--foreground))',
+        // Ajoute d'autres couleurs custom si besoin
       },
       
       // Gradients personnalisés
