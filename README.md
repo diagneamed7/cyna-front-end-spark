@@ -1,26 +1,57 @@
-# Cyna – Marketplace SaaS de référence
+# 🛡️ Cyna – Marketplace SaaS pour entreprises
 
-Bienvenue sur **Cyna**, la marketplace qui permet de découvrir, comparer et tester les meilleurs outils SaaS du marché.  
-> **Ce projet a été réalisé dans le cadre de ma formation à INGÉTIS et servira de support à ma soutenance de mémoire.**
+Bienvenue sur **Cyna**, la plateforme de référence pour découvrir, comparer et tester les meilleurs outils SaaS du marché.
 
-Ce projet a été conçu pour faciliter la recherche de solutions digitales pour les entrepreneurs, startups et PME.
+> Ce projet a été réalisé dans le cadre du **Bachelor 3 – Développement Web & Mobile** chez **INGÉTIS / SUP DE VINCI**.  
+> Il sert de support à la **soutenance finale de notre projet fil rouge**.
+
+---
+
+## 🎯 Objectif du projet
+
+L’objectif du projet est de répondre à un besoin réel de l’entreprise **CYNA**, spécialisée dans les solutions SaaS de cybersécurité.  
+Nous avons conçu une **marketplace e-commerce B2B**, moderne et sécurisée, permettant à des clients professionnels de :
+
+- Rechercher des outils numériques (SOC, EDR, XDR, etc.)
+- Comparer les offres
+- S’abonner à des services SaaS
+- Gérer leurs abonnements en ligne
+- Effectuer des paiements sécurisés
+
+---
 
 ## 🚀 Fonctionnalités principales
 
-- Catalogue de plus de 500 outils SaaS testés et notés par la communauté
-- Fiches produits détaillées (prix, avis, fonctionnalités, etc.)
-- Recherche et filtres avancés par catégorie, prix, popularité, etc.
-- Inscription et connexion sécurisées
-- Interface moderne et responsive
+### 🧑‍💻 Pour les utilisateurs :
+- Recherche et filtres avancés (catégories, prix, notation…)
+- Fiches produits détaillées avec avis, prix, screenshots
+- Inscription, connexion sécurisée (JWT)
+- Panier et abonnement SaaS mensuel/annuel
+- Paiement sécurisé via Stripe / PayPal
+- Historique de commandes
+- Interface responsive (mobile, tablette, desktop)
 
-## 🛠️ Technologies utilisées
+### 🔒 Pour les administrateurs :
+- Back-office complet : gestion des produits, utilisateurs, commandes
+- Authentification 2FA (deux facteurs)
+- Tableau de bord avec statistiques
+- Interface sécurisée et ergonomique
 
-- [Vite](https://vitejs.dev/) – Build ultra-rapide
-- [React](https://react.dev/) + [TypeScript](https://www.typescriptlang.org/) – Frontend robuste et typé
-- [Tailwind CSS](https://tailwindcss.com/) – Design moderne et personnalisable
-- [shadcn/ui](https://ui.shadcn.com/) – Composants UI réutilisables
+---
 
-## 📁 Structure du projet
+## 🛠️ Stack technique
+
+| Côté               | Technologies utilisées                                                |
+|--------------------|------------------------------------------------------------------------|
+| Front-end          | [React](https://react.dev/), [TypeScript](https://www.typescriptlang.org/), [Vite](https://vitejs.dev/), [Tailwind CSS](https://tailwindcss.com/), [shadcn/ui](https://ui.shadcn.com/) |
+| Back-end           | Node.js, Express.js, MySQL                                             |
+| Authentification   | JWT, bcrypt, Auth 2FA                                                  |
+| Paiement           | Stripe, PayPal                                                         |
+| Outils projet      | GitHub, Trello, Figma, Notion                                          |
+
+---
+
+## 📁 Arborescence du projet
 
 ```
 src/
@@ -33,30 +64,33 @@ src/
 public/            # Fichiers statiques (favicon, images, etc.)
 ```
 
-## ⚡ Démarrage rapide
+---
 
-1. Clone le dépôt :
-   ```sh
-   git clone <URL_DU_DEPOT>
-   cd cyna-front-end
-   ```
-2. Installe les dépendances :
-   ```sh
-   npm install
-   ```
-3. Lance le serveur de développement :
-   ```sh
-   npm run dev
-   ```
-4. Accède à l’application sur [http://localhost:5173](http://localhost:5173)
+## 👥 Équipe projet
 
-## 🌍 Déploiement
+Projet réalisé dans le cadre du Bachelor 3 INGÉTIS / SUP DE VINCI
 
-Le projet peut être déployé sur toute plateforme compatible avec Vite/React (par exemple : Vercel, Netlify, etc.).
+**Chef de projet :**  
+Mouhamed DIAGNE
 
-## 👤 Auteur
+**Développeurs :**  
+- Mouhamed DIAGNE  
+- Ruben Précieux Madzou  
+- Amah Audrey Djogbema  
+- Moubarak Kiye Dendi
 
-Projet réalisé par DIAGNE Mouhamed dans le cadre du mémoire INGÉTIS (projet scolaire pour la soutenance).
+**Encadrants pédagogiques :**  
+- Mme Guerfi  
+- Mr Roget  
+- Mme Houda Neffati
+
+**Entreprise partenaire :**  
+- CYNA
+
+**Consultant technique :**  
+- MAD Consulting
+
+---
 
 ## 📄 Licence
 
@@ -64,4 +98,4 @@ Ce projet est sous licence MIT.
 
 ---
 
-> Pour toute question ou suggestion, n’hésite pas à ouvrir une issue ou à me contacter.
+> Pour toute question ou suggestion, n’hésite pas à ouvrir une issue ou à nous contacter.
