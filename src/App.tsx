@@ -9,6 +9,11 @@ import Catalogue from "./pages/Catalogue";
 import Login from "./pages/Login";
 import Register from "./pages/Register";
 import NotFound from "./pages/NotFound";
+import Contact from "./pages/ContactForm.tsx";
+import MentionsLegales from "./pages/MentionsLegales.tsx";
+import PolitiqueConfidentialite from "./pages/confidentialite";
+
+import Chatbot from "./pages/Chatbot";
 
 const queryClient = new QueryClient();
 
@@ -19,6 +24,11 @@ const App = () => (
       <Sonner />
       <BrowserRouter>
         <Routes>
+            
+          <Route path="/contact" element={<Contact />} />
+          <Route path="/chatbot" element={<Chatbot />} /> 
+          <Route path="/mentions-legales" element={<MentionsLegales/>} /> 
+          <Route path="/confidentialite" element={<PolitiqueConfidentialite />} />
           <Route path="/" element={<Index />} />
           <Route path="/catalogue" element={<Catalogue />} />
           <Route path="/login" element={<Login />} />

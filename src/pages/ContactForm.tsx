@@ -79,7 +79,7 @@ const ContactForm: React.FC = () => {
           ✅ Merci ! Votre message a été envoyé.
         </div>
       ) : (
-        <form onSubmit={handleSubmit} className="contact-form text-[#eb9f13]">
+        <form onSubmit={handleSubmit} className="contact-form text-[#8613eb]">
   <h2>Contactez-nous</h2>
   
 

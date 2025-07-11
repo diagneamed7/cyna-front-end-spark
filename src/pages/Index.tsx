@@ -5,8 +5,12 @@ import { Card, CardContent } from '@/components/ui/card';
 import { Badge } from '@/components/ui/badge';
 import { Search, ShoppingCart, User, Menu, Star, TrendingUp, Users, Zap } from 'lucide-react';
 import { Link } from 'react-router-dom';
+import Chatbot from './Chatbot'; 
 
 const Index = () => {
+  // TODO: Replace with real authentication logic
+  const isAuthenticated = false;
+
   const featuredCategories = [
     {
       id: 1,
@@ -313,7 +317,8 @@ const Index = () => {
 
       {/* CTA Section */}
       <section className="py-16 lg:py-24 bg-gradient-to-r from-blue-600 to-purple-600">
-        <div className="container mx-auto px-4 sm:px-6 lg:px-8">
+ 
+   <div className="container mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center space-y-8 text-white">
             <h2 className="text-3xl lg:text-4xl font-bold">
               Prêt à booster votre business ?
@@ -332,7 +337,10 @@ const Index = () => {
             </div>
           </div>
         </div>
-      </section>
+
+  <Chatbot />
+</section>
+
 
       {/* Footer */}
       <footer className="bg-muted/30 py-12">
@@ -374,10 +382,15 @@ const Index = () => {
                 <li><Link to="/about" className="hover:text-foreground transition-colors">À propos</Link></li>
                 <li><Link to="/careers" className="hover:text-foreground transition-colors">Carrières</Link></li>
                 <li><Link to="/press" className="hover:text-foreground transition-colors">Presse</Link></li>
-                <li><Link to="/legal" className="hover:text-foreground transition-colors">Mentions légales</Link></li>
+                <li><Link to="/MentionsLegales" className="hover:text-foreground transition-colors">Mentions légales</Link></li>
+                <li><Link to="/confidentialite" className="hover:text-foreground transition-colors">Politique de confidentialité</Link></li>
+
               </ul>
             </div>
+            
           </div>
+           
+        
 
           <div className="border-t mt-8 pt-8 text-center text-sm text-muted-foreground">
             <p>&copy; 2024 Cyna. Tous droits réservés.</p>

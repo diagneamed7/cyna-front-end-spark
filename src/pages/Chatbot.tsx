@@ -64,7 +64,7 @@ export default function Chatbot() {
     <div className="fixed bottom-6 right-6 z-50">
       <button
   onClick={toggleChat}
-  className=" text-[#f9a303] text-lg font-bold px-6 py-3 rounded-full shadow-xl transition-all duration-200"
+  className=" text-[#7a03f9] text-lg font-bold px-6 py-3 rounded-full shadow-xl transition-all duration-200"
 >
   💬 En quoi puis-je vous aider?
 </button>
